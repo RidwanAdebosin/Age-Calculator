@@ -9,11 +9,13 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   background-color: #f7f7f7;
+  background-color: rgb(192, 187, 187);
 }
 
 .container {
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  background-color: rgb(81, 62, 62);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
   max-width: 600px;
   border-radius: 5px;
   padding: 20px;
@@ -62,4 +64,21 @@ button:hover {
   margin-top: 20px;
   font-size: 24px;
   font-weight: bold;
+}
+
+footer {
+  margin-block-start: 400px;
+  color: white;
+  /* position: fixed; */
+  /* bottom: 0; */
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: cadetblue;
+  }
+
+  .container {
+    background-color: rgb(66, 100, 102);
+  }
 }
