@@ -30,5 +30,3 @@ const getAge = (birthdayValue) => {
 };
 
 btn.addEventListener("click", calculateAge);
-
-// input.addEventListener(CalculateAge, Age);
